@@ -4,8 +4,8 @@ public class Sender {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TemplateImp1 template1 = new TemplateImp1("Ayushi", "JPMC", "Java Developer");
-		TemplateImp1 template2 = new TemplateImp1("Gourav", "JPMC", "C# Developer");
+		Template template1 = new TemplateImp1("Ayushi", "JPMC", "Java Developer");
+		Template template2 = new TemplateImp1("Gourav", "JPMC", "C# Developer");
 		
 		System.out.println(template1.template().toString());
 		System.out.println("\n");
